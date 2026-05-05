@@ -10,10 +10,16 @@ body {
     flex-direction: column;
 }
 
+p {
+    margin-top: 0;
+}
+
 header {
 	background-color: #CCC5B9;
     display: flex;
     align-items: center;
+    border: 4px solid #3A3335;
+    border-radius: 6px;
 }
 
 h1 {
@@ -30,8 +36,11 @@ h1 {
     padding: 4px 8px;
 }
 
+#search-btn {
+    cursor: pointer;
+}
+
 .container {
-    display: block;
     padding: 15px 20px;
 }
 
@@ -48,8 +57,9 @@ main {
 }
 
 #nav-sidebar {
-    display: block;
-    width: 164px;
+    width: 156px;
+    border: 4px solid #CCC5B9;
+    border-radius: 6px;
     background-color: #3A3335;
     color: #F2F2F2;
     margin: 0;
@@ -57,15 +67,37 @@ main {
 
 #nav-list {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 0;
     align-items: center;
 }
 
 #nav-list li {
     padding-bottom: 10px;
+    list-style: none;
 }
 
-#welcome-txt p {
-    font-size: 16px;
-    margin: 0;
+#movie-result {
+    margin-top: 16px;
+}
+
+#movie-card {
+    display: flex;
+    border: 4px solid #3A3335;
+    border-radius: 6px;
+    padding: 5px;
+    width: auto;
+    height: 15em;
+    background-color: #CCC5B9;
+    color: #3A3335;
+}
+
+#movie-info {
+    padding: 10px 6px;
+    align-content: center;
+}
+
+#movie-card img {
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 6px;
 }
