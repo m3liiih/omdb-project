@@ -44,6 +44,11 @@ h1 {
     padding: 15px 20px;
 }
 
+.wrapper {
+    display: flex;
+align-items: center
+}
+
 #main-content {
     flex: 1;
     width: auto;
@@ -86,9 +91,10 @@ main {
     border-radius: 6px;
     padding: 5px;
     width: auto;
-    height: 15em;
     background-color: #CCC5B9;
     color: #3A3335;
+    height: 200px;
+    margin-bottom: 10px;
 }
 
 #movie-info {
@@ -98,6 +104,7 @@ main {
 
 #movie-card img {
     height: 100%;
+    width: auto;
     margin-right: 10px;
     border-radius: 6px;
 }
